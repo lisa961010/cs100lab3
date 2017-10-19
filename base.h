@@ -1,8 +1,29 @@
+#ifndef BASE_H
 
-class Base{
-  public: 
-    /* Constructors */
-    Base() { }
-    /* Pure Virtual Functions */
-    virtual double evaluate() = 0;
+#define BASE_H
+
+
+class base
+
+{
+
+    public:
+
+        base();
+
+        virtual double evaluate() = 0;
+
+
+
+    protected:
+
+
+
+    private:
+
 };
+
+
+
+#endif // BASE_H;
+
