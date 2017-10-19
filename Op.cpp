@@ -1,16 +1,31 @@
 #include "Op.h"
 
+
+
 Op::Op()
+
 {
+
+    
 
 }
 
-Op::Op(int op_give)
+
+
+Op::Op(double Value)
+
 {
-    this->op = op_give;
+
+    this->value = Value;
+
 }
 
-int Op::leaf()
+
+
+double Op::evaluate()
+
 {
-    return op;
+
+    return value;
+
 }

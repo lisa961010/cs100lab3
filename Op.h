@@ -1,16 +1,38 @@
 #ifndef OP_H
 #define OP_H
 
-class Op
+#include "base.h"
+
+
+
+
+
+class Op : public base
+
 {
-    private:
-        int op;
+
     public:
+
         Op();
-        Op(int op_give);
-        int leaf();
-        
-}
+
+        Op(double Value);
 
 
-#endif
+
+        virtual double evaluate();
+
+
+
+    protected:
+
+
+
+    private:
+
+        double value;
+
+};
+
+
+
+#endif // OP_H#endif
