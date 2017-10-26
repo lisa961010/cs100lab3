@@ -1,19 +1,27 @@
-#ifndef SELECTIONSORT_H
-#define SELECTIONSORT_H
+#ifndef SORT_H
 
-#include "Sort.h"
+#define SORT_H
+
+#include "Container.h"
 
 
-class SelectionSort : public Sort
-{
-    public:
-        SelectionSort();
 
-        virtual void sort(Container* container);
+class Container;
 
-    protected:
+class Sort{
 
-    private:
+  public:
+
+    /* Constructors */
+
+    Sort();
+
+    /* Pure Virtual Functions */
+
+    virtual void sort(Container* container) = 0;
+
 };
 
-#endif // SELECTIONSORT_H
+
+
+#endif // SORT_H
