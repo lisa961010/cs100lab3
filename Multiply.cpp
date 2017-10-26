@@ -21,3 +21,4 @@ double Multiply::evaluate()
 {
 
     return (left_child->evaluate()*right_child->evaluate());
+}
