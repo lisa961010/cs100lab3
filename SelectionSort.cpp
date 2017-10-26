@@ -48,8 +48,4 @@ void SelectionSort::sort(Container* container)
 
      }
 
-     return;
-
-
-
 }

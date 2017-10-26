@@ -1,4 +1,4 @@
-#ifdef SELECTIONSORT_H
+#ifndef SELECTIONSORT_H
 
 #define SELECTIONSORT_H
 
@@ -8,9 +8,7 @@
 
 
 
-
-
-class SelectionSort : public Sort
+class SelectionSort: public Sort
 
 {
 
