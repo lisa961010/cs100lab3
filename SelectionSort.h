@@ -1,4 +1,4 @@
-fndef SELECTIONSORT_H
+#ifdef SELECTIONSORT_H
 
 #define SELECTIONSORT_H
 
